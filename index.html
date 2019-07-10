@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zoho Test</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <section class="main">
+    <form class="form" name="form" method="post" action="src/functions.php">
+      <h1 class="form__title">Обратная связь</h1>
+      <input class="form__input form__input_full" type="text" name="firstname" required placeholder="Имя">
+      <input class="form__input form__input_full" type="text" name="lastname" required placeholder="Фамилия">
+      <input class="form__input form__input_full" type="text" name="company" required placeholder="Компания">
+      <input class="form__input form__input_full" type="tel" name="phone" required placeholder="Телефон">
+      <input class="form__input form__input_full" type="email" name="email" required placeholder="E-mail">
+      <input class="form__input form__input_full" type="number" min="0" name="amount" placeholder="Сумма сделки">
+      <select class="form__select form__input form__input_full" name="source">
+        <option value="">Выберите источник</option>
+        <option value="Реклама">Реклама</option>
+        <option value="Предложение услуг по телефону">Предложение услуг по телефону</option>
+        <option value="Рекомендации от сотрудников">Рекомендации от сотрудников</option>
+        <option value="Рекомендации от внешних источников">Рекомендации от внешних источников</option>
+        <option value="Партнер">Партнер</option>
+        <option value="Связи с общественностью">Связи с общественностью</option>
+        <option value="Торговая выставка">Торговая выставка</option>
+        <option value="Веб-форма">Веб-форма</option>
+        <option value="Поисковая система">Поисковая система</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Twitter">Twitter</option>
+        <option value="Online Store">Online Store</option>
+        <option value="Seminar Partner">Seminar Partner</option>
+        <option value="Web Download">Web Download</option>
+      </select>
+      <input type="submit" class="form__submit form__input form__input_full" name="submit" value="Отправить">
+    </form>
+  </section>
+</body>
+</html>
